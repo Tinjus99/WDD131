@@ -1,0 +1,38 @@
+body {
+    font-family: Marmelad, Times, serif;
+    background-color: #223464;
+}
+injected stylesheet
+body {
+    --tfc-dark-mode-text-primary: #e4e4e7;
+    --tfc-dark-mode-text-secondary: #71717a;
+    --tfc-dark-mode-bg-primary: #27272a;
+    --tfc-dark-mode-bg-primary-2: #3f3f46;
+    --tfc-dark-mode-bg-secondary: #52525b;
+    --tfc-sidebar-width: 288px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 500px) {
+    main {
+        grid-template-columns: 1fr 1fr; 
+
+    }
+    div#hero{
+        grid-column: 1 / 3;
+    }
+    article#new{
+        grid-column: 1/2;
+    }
+
+    article#week{
+        grid-column: 1/2;
+    }
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
