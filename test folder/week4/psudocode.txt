@@ -1,0 +1,11 @@
+add task button onclick 
+   if blank do nothing
+   else 
+        add to list
+        then clear text box
+    
+on click (remove)
+    when clicked remove associated task from list
+
+on click (mark done)
+    when marked done change text to strike through
