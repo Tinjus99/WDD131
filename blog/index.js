@@ -25,3 +25,19 @@ const articles = [
 		stars: '⭐⭐⭐⭐'
 	}
 ]
+
+
+
+	let html = `
+	<section class="review">
+		<p>${item.date}</p>
+		<p>${item.ages}</p>
+		<p>${item.genre}</p>
+		<p>${item.stars}</p>
+	</section>
+	<section class="book-info">
+		<h3>${item.title}</h3>
+		<img src="${item.imgSrc}" alt="${item.imgAlt}">
+		<p>${item.description}</p>
+	</section>
+	`

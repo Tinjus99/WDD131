@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+ }
+h1 {
+    font-family: Lora, Impact, serif;
+    font-size: 2.5em;
+    justify-self: center;
+    color: #473144;
+}
+body {
+    grid-template-columns:  3fr 1fr;
+}
+header {
+    width: 100%;
+}
+nav > ul {
+    font-size: 1.5em;
+    color: #AF1B3F;
+    grid-template-columns: 100px 100px 80px;
+    display: grid;
+    border: 1px solid #EFC69B;
+    list-style: none;
+    justify-content: end;
+    justify-items: end;
+    padding: 15px;
+}
+h3 {
+    font-family: Lora, Impact, serif;
+    font-size: 1.5em;
+    justify-self: center;
+    margin: 10px;
+    color: #AF1B3F;
+}
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+main {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+}
+.blog-post {
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+}
+div > .review {
+    align-content: right;
+    align-self: right;
+    grid-column: 1/2;
+}
+.book-info {
+    grid-column: 2;
+    
+    
+}
+div#filter-form {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border: 1px solid #EFC69B;
+    columns: 2/3;
+}
