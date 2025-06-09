@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* Reset some defaults */
 body, h1, h2, p, a {
   margin: 0;
   padding: 0;
-  font-family: Georgia, serif;
+  font-family: Lora, Impact, serif;
 }
 
 body {
@@ -25,6 +27,15 @@ header h1 {
 
 nav {
   margin-top: 10px;
+  font-size: 1.2em;
+  color: #AF1B3F;
+  grid-template-columns: 100px 100px 80px;
+  display: grid;
+  border: 1px solid #EFC69B;
+  list-style: none;
+  justify-content: end;
+  justify-items: end;
+  padding: 15px;
 }
 
 nav a {

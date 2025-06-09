@@ -1,0 +1,135 @@
+body {
+    position: relative;
+}
+
+#cardback {
+    top: 40px;
+    right: 0;
+    z-index: -2;
+}
+
+#submit {
+    background-color: #dddddd;
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    width: 150px;
+    border-radius: 10px;
+    height: 42px;
+}
+
+#card-cvc {
+    width: 60px;
+    margin-bottom: 0;
+}
+
+#cardfront, #cardback {
+    position: absolute;
+    background-color: #dddddd;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px 30px 0;
+    box-sizing: border-box;
+}
+
+#card-image {
+    float: right;
+    height: 100%;
+}
+
+#month {
+    width: 45%;
+}
+
+#cardnumber, #cardholder {
+    width: 100%;
+}
+
+#stripe {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+}
+
+#year {
+    width: 45%;
+    float: right;
+}
+
+#cardholder-container {
+    width: 60%;
+    display: inline-block;
+}
+
+#cvc-container {
+    position: absolute;
+    width: 110px;
+    right: -115px;
+    bottom: -10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#cvc-container label {
+    width: 100%
+}
+
+form {
+    margin: auto;
+    width: 500px;
+    height: 290px;
+    position: relative;
+}
+
+#exp-container {
+    margin-left: 10px;
+    width: 32%;
+    display: inline-block;
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+#img-container {
+    width: 100%;
+    position: relative;
+    height: 55px;
+    margin-bottom: 5px;
+    line-height: 55px;
+}
+
+img {
+    position: absolute;
+    right: 20;
+    top: -80px;
+    width: 60px ;
+}
+
+input {
+    border: none;
+    outline: none;
+
+}
+
+label {
+  display: block;
+  margin: 0 auto 7px;
+}
+#shadow {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  height: 214px;
+  top: 36px;
+  background-color: #000;
+  z-index: -1;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
