@@ -7,6 +7,12 @@ function displayError(msg) {
 	document.querySelector('.errorMsg').innerHTML = msg
 }
 function submitHandler(event) {
+	const currentDate = new Date()
+	if ('20' + this.expYear.value < currentDate.getFullYear()) {
+	errorMsg += 'Card is expired\n'
+	} else if (this.expMonth.value < currentDate.getMonth()) {
+	errorMsg += 'Card is expired\n'
+	}
 	event.preventDefault()
 	let errorMsg = ''
 	console.log(this.cardNumber.value)
