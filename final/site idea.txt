@@ -1,0 +1,4 @@
+design a website that i can read into my website and save for future use for
+dungeons and dragons. i want to be able to auto generate the stats for NPCs that i can save
+i also want to be able to read in the monsters that can then be sorted by different tags
+i should also be able to sort the NPCs by level skills races or alignment
